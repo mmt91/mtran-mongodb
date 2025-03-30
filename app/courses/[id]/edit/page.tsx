@@ -90,7 +90,7 @@ export default function EditCoursePage({ params }: EditCoursePageProps) {
       });
 
       if (!response.ok) {
-        throw new Error("Failed to update course");
+        throw new Error("Failed to   course");
       }
 
       // Redirect to course details page after successful update
